@@ -1,0 +1,25 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+section {
+    flex-basis: calc(50% - ($gutter/2))
+    }
+}
+
+footer {
+    .footer-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; // Three equal columns
+        align-items: center; // Changed from start
+    }
+
+    section.location {
+        text-align: left; 
+        padding-left: 2rem; // Added left padding
+    }
+
+    // Removed empty section.social {} block
+}
