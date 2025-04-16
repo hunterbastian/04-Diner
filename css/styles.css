@@ -456,6 +456,14 @@ footer section.contact ion-icon {
   color: #CD853F;
   padding-right: 5px;
 }
+footer section.contact a {
+  color: #5DBDB3;
+  text-decoration: none;
+}
+footer section.contact a:hover {
+  color: #8B4513;
+  text-decoration: underline;
+}
 footer section.social {
   display: flex;
   justify-content: center;
@@ -482,6 +490,7 @@ p.legal {
   margin: 0;
   font-weight: 400;
   text-align: center;
+  color: #8B4513;
 }
 
 @media only screen and (min-width: 35rem) {

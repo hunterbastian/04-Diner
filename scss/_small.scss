@@ -160,7 +160,14 @@ footer {
     section.contact {
     p {font-size: 1.2rem; margin: .5rem;}
     ion-icon {color: #CD853F; padding-right: 5px;}
-
+    a {
+        color: #5DBDB3; // Match teal from social icons
+        text-decoration: none;
+        &:hover {
+            color: #8B4513; // Coffee color on hover
+            text-decoration: underline;
+        }
+    }
     } // end contact
 
     section.social {
@@ -193,7 +200,7 @@ p.legal {
     margin: 0;
     font-weight: $lightWeight;
     text-align: center;
-
+    color: #8B4513;
 }
 
 
